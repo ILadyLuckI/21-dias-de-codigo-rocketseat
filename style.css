@@ -1,45 +1,61 @@
 *{
     margin: 0px;
     border: 0px;
-    padding: 0px;
-    
+    padding: 0px;  
 }
 
 body {
-    background-color: rgb(0, 0, 0);
-    background-image: url(https://pa1.narvii.com/6735/0ccea0aeacaa685ee62cef00793bd53fb89fadcb_hq.gif);
-    background-size: 30vh;
+    background-color: white;
+    background-image: url(https://images8.alphacoders.com/115/1156488.png);
+    background-size: 100vh;
     background-position: center;
     background-repeat: no-repeat;
   }
 
-p{
-    padding: 100px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 255, 255);
+div.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-title{
     text-align: center;
-    text-decoration: blink;
-    font-size: 50px;
-    text-shadow: 2px 2px rgb(146, 144, 144);
+    padding-top: 0px;
+    position: static;
+    top: 0;
 }
 
-p span{
-    color: rgb(181, 12, 219)
+p{
+    color: white;
 }
 
-.world:hover{
-    transition: all 3s ease;
-    transform: rotate(360deg);
+button{
+    position: absolute center;
+    width: 10rem;
+    height: 3rem;
+    background-color: black;
+    cursor:not-allowed;
+}
+
+button:hover {
+    background: #4B0082; 
+    border-radius: 50px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 .text-footer{  
-    position: absolute center;  
+    position:center;  
     padding: 0px;
     text-align: center;   
-    color: white; 
+    color: black; 
     padding-top: 500px;
 }
 
 .link{
-    color: white;
+    color: black;
 }
